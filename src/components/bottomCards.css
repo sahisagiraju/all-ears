@@ -1,0 +1,86 @@
+.sectionTitle {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.wideCard {
+    background-color: #d5b4f4;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.wideCard p {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+
+.wideCard a {
+    background-color: #a855f7; /* purple-500 */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    margin-left: 44%;
+    text-decoration: none;
+}
+
+.resources {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    background-color: #d5b4f4;
+    width: 30%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card h3 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    padding: 10px;
+}
+
+.learnMore {
+    background-color: #a855f7; /* purple-500 */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.learnMore a {
+    text-decoration: none;
+    color: white;
+}
+
+.card ul {
+    list-style-position: inside;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.card ul li {
+    font-family: 'Inter', sans-serif;
+}
