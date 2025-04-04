@@ -6,12 +6,8 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* */}
-      <div style={{ padding: '2rem' }}>
-        {[...Array(100)].map((_, i) => (
-          <p key={i}>Test </p>
-        ))}
-      </div>
+      {/* This is where all other components go*/}
+      
       <Footer />
     </>
   );

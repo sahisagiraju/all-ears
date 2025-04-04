@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# All Ears Autism Services – Website Development (CYC Spring 2025)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+**All Ears Autism Services, LLC** is a home health care provider based in Plano, TX, offering in-home Applied Behavior Analysis (ABA) therapy for children aged 1–20 across Texas. Founded by Kimberly Gorham, a Board Certified Behavior Analyst (BCBA), the organization focuses on underserved and rural communities. All Ears is in-network with Medicaid and various commercial insurance providers.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Mission
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> "Through compassionate care, innovative strategies, and collaboration with families and community partners, All Ears Autism Services strives to foster independence, enhance quality of life, and promote inclusion for every individual we serve."
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Project Purpose
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All Ears currently lacks a digital presence and marketing strategy. The goal of this project is to build a professional, user-friendly website that improves visibility and enables growth through:
 
-### `npm run build`
+### 🔧 Website Development
+- Launch an official website (landing page, about, services, resources, contact)
+- Integrate the **Tilly platform** for bookings and referrals
+- Ensure accessibility and SEO optimization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📈 Optional: Marketing Strategy (If Time Permits)
+- Develop a basic outreach plan
+- Suggest strategies for entering new markets (Austin, San Antonio)
+- Identify referral opportunities from local healthcare professionals
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Target Audience
+- Families with children impacted by autism (ages 1–20)
+- Clients from underserved communities or rural Texas regions
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Key Competitors
+- Behavioral Innovations  
+- Centria (only one offering in-home care)  
+- Action Behavior Centers  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Client Info
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Name:** Kim Gorham  
+- **Role:** Owner & Executive Clinical Director  
+- **Email:** kimberly.gorham@allearsautismservices.org  
+- **Phone:** 972-896-5083  
+- **Availability:** Mon–Wed after 5 PM, Thurs after 1 PM  
+- **LinkedIn:** Kim Gorham  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Frontend:** React.js + Tailwind CSS  
+- **Hosting:** TBD  
+- **Design Assets:** Provided by client (logo, branding)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Goals
 
-### Analyzing the Bundle Size
+- Double current client base by end of 2025
+- Expand outreach to Austin and San Antonio
+- Reduce dependency on third-party platforms for client acquisition
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is part of the **CYC Spring 2025 program** and is developed for educational and professional growth purposes.
