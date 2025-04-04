@@ -16,28 +16,11 @@
 
 All Ears currently lacks a digital presence and marketing strategy. The goal of this project is to build a professional, user-friendly website that improves visibility and enables growth through:
 
-### 🔧 Website Development
-- Launch an official website (landing page, about, services, resources, contact)
-- Integrate the **Tilly platform** for bookings and referrals
-- Ensure accessibility and SEO optimization
-
-### 📈 Optional: Marketing Strategy (If Time Permits)
-- Develop a basic outreach plan
-- Suggest strategies for entering new markets (Austin, San Antonio)
-- Identify referral opportunities from local healthcare professionals
-
 ---
 
 ## Target Audience
 - Families with children impacted by autism (ages 1–20)
 - Clients from underserved communities or rural Texas regions
-
----
-
-## Key Competitors
-- Behavioral Innovations  
-- Centria (only one offering in-home care)  
-- Action Behavior Centers  
 
 ---
 
@@ -53,16 +36,8 @@ All Ears currently lacks a digital presence and marketing strategy. The goal of 
 ## Tech Stack
 
 - **Frontend:** React.js + Tailwind CSS  
-- **Hosting:** TBD  
+- **Hosting:** TBD 
 - **Design Assets:** Provided by client (logo, branding)
-
----
-
-## Goals
-
-- Double current client base by end of 2025
-- Expand outreach to Austin and San Antonio
-- Reduce dependency on third-party platforms for client acquisition
 
 ---
 
