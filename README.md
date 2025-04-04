@@ -46,8 +46,6 @@ All Ears currently lacks a digital presence and marketing strategy. The goal of 
 - **Name:** Kim Gorham  
 - **Role:** Owner & Executive Clinical Director  
 - **Email:** kimberly.gorham@allearsautismservices.org  
-- **Phone:** 972-896-5083  
-- **Availability:** Mon–Wed after 5 PM, Thurs after 1 PM  
 - **LinkedIn:** Kim Gorham  
 
 ---
