@@ -2,17 +2,15 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BottomCards from './components/bottomCards';
+import TillyTherapy from './components/TillyTherapy';
+import Services from './components/Services';
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* */}
-      <div style={{ padding: '2rem' }}>
-        {[...Array(100)].map((_, i) => (
-          <p key={i}>Test </p>
-        ))}
-      </div>
+      <TillyTherapy />
+      <Services />
       <BottomCards />
       <Footer />
     </>

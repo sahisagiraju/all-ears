@@ -1,0 +1,35 @@
+.sectionTitle {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.wideCard {
+    background-color: #d5b4f4;
+    width: 80%;
+    margin-left: 10%;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.wideCard p {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+}
+
+.wideCard a {
+    align-items: center;
+    text-align: center;
+    background-color: #a855f7; /* purple-500 */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    width: 200px;
+    margin-left: 41.8300654%;
+}
