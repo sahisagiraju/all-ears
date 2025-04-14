@@ -1,12 +1,12 @@
 import React from 'react';
 import './Navbar.css'; 
-import logo from '../assets/allearslogo.png'; 
+import Logo2 from '../assets/all-ears-logo.js'; 
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img src={logo} alt="logo" className="navbar-logo" />
+        <Logo2 className="navbar-logo" />
         <span className="navbar-title">All Ears Autism Services</span>
       </div>
       <ul className="navbar-links">
