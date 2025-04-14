@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import BottomCards from './components/bottomCards';
+import HeroSection from './components/heroSections';
+import ServicesSection from './components/servicesSection';
+
 
 function App() {
   return (
@@ -13,8 +16,11 @@ function App() {
           <p key={i}>Test </p>
         ))}
       </div>
+      <HeroSection />
+      <ServicesSection />
       <BottomCards />
       <Footer />
+      
     </>
   );
 }
