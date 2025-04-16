@@ -1,0 +1,39 @@
+.sectionTitle {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.card {
+    background-color: white;
+    width: 40%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 2px 2px gray;
+}
+
+.card h2 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.card p {
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    display: inline;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.resources {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
