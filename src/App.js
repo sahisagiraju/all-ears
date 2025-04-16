@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import BottomCards from './components/bottomCards';
 import TillyTherapy from './components/TillyTherapy';
 import Services from './components/Services';
+import AboutUs from './components/aboutUs'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <TillyTherapy />
       <Services />
+      <AboutUs/>
       <BottomCards />
       <Footer />
     </>
