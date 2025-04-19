@@ -2,7 +2,7 @@
   "name": "all-ears",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sahisagiraju.github.io/all-ears/",
+  "homepage": "https://www.allearsautismservices.org/all-ears",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
