@@ -12,9 +12,9 @@ function Footer() {
         <p>Copyright © 2025 All Ears Autism Services, LLC</p>
         <p>All rights reserved</p>
         <div className="footer-icons">
-          <a href="#"><FaGithub /></a>
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaGlobe /></a>
+          <a href="/"><FaGithub /></a>
+          <a href="/"><FaLinkedin /></a>
+          <a href="/"><FaGlobe /></a>
         </div>
       </div>
       <div className="footer-right">
