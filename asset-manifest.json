@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/all-ears/static/css/main.354aff86.css",
+    "main.js": "/all-ears/static/js/main.73d0bda7.js",
+    "static/media/kim.png": "/all-ears/static/media/kim.b65df62c9fca56994d4c.png",
+    "static/media/allearslogo.png": "/all-ears/static/media/allearslogo.d1c63b7ffc61434ea092.png",
+    "index.html": "/all-ears/index.html",
+    "main.354aff86.css.map": "/all-ears/static/css/main.354aff86.css.map",
+    "main.73d0bda7.js.map": "/all-ears/static/js/main.73d0bda7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.354aff86.css",
+    "static/js/main.73d0bda7.js"
+  ]
+}
