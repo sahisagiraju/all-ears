@@ -15,11 +15,11 @@ export default function Providers() {
   ];
 
   return (
-    <section id="providers" className="bg-purple-200 py-8 px-6 font-inter">
+    <section id="insurance" className="bg-purple-200 py-8 px-6 font-inter">
       {/* Section Label */}
       <div className="max-w-screen-lg mx-auto text-center mb-6">
         <h3 className="text-2xl md:text-3xl font-semibold text-gray-800">
-          Our Providers
+          Insurances We Accept
         </h3>
       </div>
 
