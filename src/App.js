@@ -5,15 +5,17 @@ import BottomCards from './components/bottomCards';
 import TillyTherapy from './components/TillyTherapy';
 import Services from './components/Services';
 import AboutUs from './components/aboutUs'
+import Main from "./components/heroSections"
 
 function App() {
   return (
     <>
       <Navbar />
-      <TillyTherapy />
+      <Main/>
       <Services />
       <AboutUs/>
       <BottomCards />
+      <TillyTherapy />
       <Footer />
     </>
   );

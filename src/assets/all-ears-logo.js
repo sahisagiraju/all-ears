@@ -1,10 +1,9 @@
 import * as React from "react";
-const SVGComponent = (props) => (
+const SVGComponent = ({ className, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 349 349"
-    width={349}
-    height={349}
+    className={className}
     {...props}
   >
     <title>{"all-ears"}</title>

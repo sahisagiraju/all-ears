@@ -1,20 +1,23 @@
 import React from 'react';
 
-function TillyTherapy() {
+// TillyTherapy Component
+export default function TillyTherapy() {
   return (
-    <div className="w-full">
-        <div className="text-center font-inter"><h1>Tilly Therapy</h1></div>
-        <div className="bg-purple-200 w-4/5 mx-auto h-[100px] mb-5 rounded-lg">
-            <p className="text-center font-inter p-2.5">Continue to Tilly Therapy to book your appointment and learn more about All Ears!</p>
-            <a 
-              href="https://tillytherapy.com/browse/kimberly-gorham" 
-              className="inline-block bg-purple-500 text-white border-none py-2 px-4 rounded-md font-semibold cursor-pointer font-inter no-underline mx-auto block w-[200px]"
-            >
-              Get Started with ABA
-            </a>
+    <div id="tilly" className="w-full px-6 py-12">
+      <h1 className="text-4xl font-bold text-center mb-8 font-inter">Tilly Therapy</h1>
+      <div className="max-w-2xl mx-auto bg-purple-200 rounded-lg shadow p-6 font-inter">
+        <p className="text-center mb-6">
+          Continue to Tilly Therapy to book your appointment and learn more about All Ears!
+        </p>
+        <div className="flex justify-center">
+          <a
+            href="https://tillytherapy.com/browse/kimberly-gorham"
+            className="bg-purple-500 text-white py-3 px-6 rounded-md font-semibold hover:bg-purple-600 transition"
+          >
+            Get Started with ABA
+          </a>
         </div>
+      </div>
     </div>
   );
 }
-
-export default TillyTherapy;
