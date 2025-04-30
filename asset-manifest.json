@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.354aff86.css",
-    "main.js": "/static/js/main.c947ad30.js",
+    "main.css": "/static/css/main.2b843513.css",
+    "main.js": "/static/js/main.126cd2ce.js",
     "static/media/kim.png": "/static/media/kim.b65df62c9fca56994d4c.png",
-    "static/media/allearslogo.png": "/static/media/allearslogo.d1c63b7ffc61434ea092.png",
     "index.html": "/index.html",
-    "main.354aff86.css.map": "/static/css/main.354aff86.css.map",
-    "main.c947ad30.js.map": "/static/js/main.c947ad30.js.map"
+    "main.2b843513.css.map": "/static/css/main.2b843513.css.map",
+    "main.126cd2ce.js.map": "/static/js/main.126cd2ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.354aff86.css",
-    "static/js/main.c947ad30.js"
+    "static/css/main.2b843513.css",
+    "static/js/main.126cd2ce.js"
   ]
 }
