@@ -3,10 +3,10 @@ import Logo from '../assets/all-ears-logo.js';
 
 const HeroSection = () => {
   return (
-    <div id="home" className="flex items-center md:justify-between px-6 pt-20 bg-white">
+    <div id="home" className="flex items-center px-6 pt-20 pb-10 bg-white">
       {/* Text Container */}
       <div className="w-auto text-left">
-      <h1 className="text-4xl md:text-6xl font-semibold leading-snug ">
+        <h1 className="text-4xl md:text-6xl font-semibold leading-snug">
           Empowering <span className="text-[#8d54fc] font-bold">Growth</span>,<br />
           Fostering <span className="text-[#8d54fc] font-bold">Independence</span>,<br />
           Promoting <span className="text-[#8d54fc] font-bold">Inclusion</span>.
@@ -16,9 +16,9 @@ const HeroSection = () => {
         </button>
       </div>
 
-      {/* Logo - match text block height */}
-      <div className="hidden md:flex md:w-auto justify-end my-8 md:my-0">
-        <Logo className="h-[148px] md:h-[full] md:w-auto" />
+      {/* Logo - take remaining width on md+ */}
+      <div className="hidden lg:flex md:flex-1 justify-end">
+        <Logo className="w-full h-auto max-w-xl" />
       </div>
     </div>
   );

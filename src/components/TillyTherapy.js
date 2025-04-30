@@ -12,7 +12,7 @@ export default function TillyTherapy() {
         <div className="flex justify-center">
           <a
             href="https://tillytherapy.com/browse/kimberly-gorham"
-            className="bg-purple-500 text-white py-3 px-6 rounded-md font-semibold hover:bg-purple-600 transition"
+            className="bg-[#8D54FC] text-white py-3 px-6 rounded-md font-semibold hover:bg-[#6D41C6] transition"
           >
             Get Started with ABA
           </a>
