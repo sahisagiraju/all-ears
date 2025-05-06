@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from '../assets/hank.js';
+import Logo from '../assets/hank.jsx';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Navbar() {

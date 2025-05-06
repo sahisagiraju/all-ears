@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/hank.js';
+import Logo from '../assets/hank.jsx';
 import { FaGithub, FaLinkedin, FaGlobe } from 'react-icons/fa';
 
 export default function Footer() {

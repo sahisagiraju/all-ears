@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/all-ears-logo.js';
+import Logo from '../assets/all-ears-logo.jsx';
 
 const HeroSection = () => {
   return (

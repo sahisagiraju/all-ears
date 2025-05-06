@@ -7,12 +7,14 @@ import Services from './components/servicesSection.js';
 import AboutUs from './components/aboutUs'
 import Main from "./components/heroSections"
 import Providers from "./components/providers"
+import Carousel from "./components/carousel"
 
 function App() {
   return (
     <>
       <Navbar />
       <Main/>
+      <Carousel />
       <Services />
       <AboutUs/>
       <Providers/>
