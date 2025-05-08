@@ -1,11 +1,11 @@
 import React from 'react';
-import Logo from '../assets/all-ears-logo.jsx';
+import ImageCarousel from './carousel';
 
 const HeroSection = () => {
   return (
-    <div id="home" className="flex items-center px-6 pt-20 pb-10 bg-white">
+    <div id="home" className="flex flex-col md:flex-row items-center px-6 pt-20 pb-10 bg-white gap-10 md:gap-0">
       {/* Text Container */}
-      <div className="w-auto text-left">
+      <div className="w-full md:w-1/2 text-left">
         <h1 className="text-4xl md:text-6xl font-semibold leading-snug">
           Empowering <span className="text-[#8d54fc] font-bold">Growth</span>,<br />
           Fostering <span className="text-[#8d54fc] font-bold">Independence</span>,<br />
@@ -16,9 +16,11 @@ const HeroSection = () => {
         </button>
       </div>
 
-      {/* Logo - take remaining width on md+ */}
-      <div className="hidden lg:flex md:flex-1 justify-end">
-        <Logo className="w-full h-auto max-w-xl" />
+      {/* Carousel replacing logo */}
+      <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+        <div className="w-full max-w-xl rounded-lg shadow-none"> {/* Seamless look */}
+          <ImageCarousel />
+        </div>
       </div>
     </div>
   );
