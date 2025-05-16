@@ -20,6 +20,8 @@ export default function BottomCards() {
             <a
               href="https://tillytherapy.com/browse/kimberly-gorham"
               className="bg-[#8D54FC] text-white py-3 px-6 rounded-md font-semibold hover:bg-purple-600 transition"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Learn More
             </a>
@@ -34,16 +36,54 @@ export default function BottomCards() {
               We understand that navigating an autism diagnosis can be overwhelming. Here are some helpful resources to support you on this journey:
             </p>
             <ul className="list-disc list-inside mb-6 space-y-2 text-left">
-              <li><a href="https://www.autismspeaks.org" className="text-gray-800 hover:font-bold hover:text-[#6D41C6]">Autism Speaks - Parents Guide to Autism</a></li>
-              <li><a href="https://www.txautism.org" className="text-gray-800 hover:font-bold hover:text-[#6D41C6]">Texas Autism Advocacy Organizations</a></li>
-              <li><a href="https://www.helpguide.org/mental-health/autism/helping-your-child-with-autism-thrive" className="text-gray-800 hover:font-bold hover:text-[#6D41C6]">Tips for Supporting Your Child's Development</a></li>
-              <li><a href="https://aane.org/services-programs/group-services/support-groups-community-connection/" className="text-gray-800 hover:font-bold hover:text-[#6D41C6]">Community Support Groups</a></li>
+              <li>
+                <a
+                  href="https://www.autismspeaks.org"
+                  className="text-gray-800 hover:font-bold hover:text-[#6D41C6]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Autism Speaks - Parents Guide to Autism
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.texasautismsociety.org/"
+                  className="text-gray-800 hover:font-bold hover:text-[#6D41C6]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Texas Autism Advocacy Organizations
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.helpguide.org/mental-health/autism/helping-your-child-with-autism-thrive"
+                  className="text-gray-800 hover:font-bold hover:text-[#6D41C6]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Tips for Supporting Your Child's Development
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://aane.org/services-programs/group-services/support-groups-community-connection/"
+                  className="text-gray-800 hover:font-bold hover:text-[#6D41C6]"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Community Support Groups
+                </a>
+              </li>
             </ul>
           </div>
           <div className="flex justify-center">
             <a
               href="https://tillytherapy.com/browse/kimberly-gorham"
               className="bg-[#8D54FC] text-white py-3 px-6 rounded-md font-semibold hover:bg-[#6D41C6] transition"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Learn More
             </a>
