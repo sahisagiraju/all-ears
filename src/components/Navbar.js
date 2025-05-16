@@ -4,16 +4,20 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
-
-  // helper to close on link click
   const handleClose = () => setNavOpen(false);
 
   return (
     <nav className="sticky top-0 z-50 flex justify-between items-center h-[90px] px-6 bg-white shadow-md font-inter">
       {/* Logo and Title */}
-      <a href="#root" onClick={handleClose} className="flex items-center h-full">
+      <a
+        href="#root"
+        onClick={handleClose}
+        className="flex items-center h-full"
+      >
         <Logo className="h-[80%] w-auto" />
-        <span className="font-bold text-lg ml-2 whitespace-nowrap">All Ears Autism Services</span>
+        <span className="font-bold text-lg ml-2 whitespace-nowrap">
+          All Ears Autism Services
+        </span>
       </a>
 
       {/* Hamburger / Close Icon */}
@@ -50,12 +54,15 @@ function Navbar() {
           ))}
         </ul>
         <div className="flex justify-center lg:justify-start p-6 lg:p-0 lg:ml-6">
-          <button
+          <a
+            href="https://tillytherapy.com/browse/kimberly-gorham"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={handleClose}
-            className="bg-[#8D54FC] text-white py-2 px-4 rounded-md font-semibold cursor-pointer font-inter"
+            className="bg-[#8D54FC] text-white py-2 px-4 rounded-md font-semibold cursor-pointer font-inter inline-block"
           >
             Contact Us
-          </button>
+          </a>
         </div>
       </div>
     </nav>

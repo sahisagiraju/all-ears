@@ -71,6 +71,8 @@ export default function AboutUs() {
               <a
                 href="https://tillytherapy.com/browse/kimberly-gorham"
                 className="inline-block bg-[#8D54FC] text-white py-2 px-6 rounded-lg font-semibold hover:bg-purple-700 transition"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Learn More
               </a>

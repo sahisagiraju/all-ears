@@ -58,10 +58,16 @@ export default function Footer() {
               <a href="#about" className="text-gray-200 no-underline font-normal">About us</a>
             </li>
             <li className="mb-2">
-              <a href="https://tillytherapy.com/browse/kimberly-gorham" className="text-gray-200 no-underline font-normal">Contact us</a>
+              <a href="https://tillytherapy.com/browse/kimberly-gorham" className="text-gray-200 no-underline font-normal"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Contact us</a>
             </li>
             <li className="mb-2">
-              <a href="https://tillytherapy.com/browse/kimberly-gorham" className="text-gray-200 no-underline font-normal">Tilly Therapy</a>
+              <a href="https://tillytherapy.com/browse/kimberly-gorham" className="text-gray-200 no-underline font-normal"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Tilly Therapy</a>
             </li>
             <li className="mb-2">
               <a href="#resources" className="text-gray-200 no-underline font-normal">Resources</a>

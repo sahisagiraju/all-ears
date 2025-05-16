@@ -13,6 +13,8 @@ export default function TillyTherapy() {
           <a
             href="https://tillytherapy.com/browse/kimberly-gorham"
             className="bg-[#8D54FC] text-white py-3 px-6 rounded-md font-semibold hover:bg-[#6D41C6] transition"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Get Started with ABA
           </a>
