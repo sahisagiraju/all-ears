@@ -5,7 +5,7 @@ import BottomCards from "./components/bottomCards";
 import TillyTherapy from "./components/TillyTherapy";
 import Services from "./components/servicesSection";
 import AboutUs from "./components/aboutUs";
-import Main from "./components/heroSections";
+import Main from "./components/heroSection";
 import Providers from "./components/providers";
 
 function App() {
