@@ -7,17 +7,19 @@ export default function HeroSection() {
   const [heroData, setHeroData] = useState(null);
 
   useEffect(() => {
-    // 1. Fetch the data from Sanity
-    const fetchHero = async () => {
-      try {
-        const data = await client.fetch(`*[_type == "heroSection"][0]`);
-        setHeroData(data);
-      } catch (error) {
-        console.error("Failed to fetch hero data:", error);
-      }
-    };
-    fetchHero();
+    console.log("✅ HeroSections mounted");
+  
+    client
+      .fetch(`*[_type == "heroSection"][0]`)
+      .then((data) => {
+        console.log("✅ HeroSections data:", data);
+        setData(data);
+      })
+      .catch((err) => {
+        console.error("❌ HeroSections fetch error:", err);
+      });
   }, []);
+  
 
   // 2. Define custom styles for the text
   // This tells React: "If the text is BOLD, make it Purple and Bold"
