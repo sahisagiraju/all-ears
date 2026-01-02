@@ -2,7 +2,7 @@
   "name": "all-ears",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sahisagiraju.github.io/all-ears",
+  "homepage": ".",
   "dependencies": {
     "@portabletext/react": "^4.0.3",
     "@sanity/client": "^7.13.1",
